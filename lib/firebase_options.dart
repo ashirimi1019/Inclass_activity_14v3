@@ -6,10 +6,7 @@ import 'package:flutter/foundation.dart'
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
-/// MANUAL CONFIGURATION TEMPLATE
-/// Replace the values below with your Firebase project configuration.
-/// You can get these values from:
-/// Firebase Console > Project Settings > General > Your apps > Web app config
+/// MANUAL CONFIGURATION TEMPLATE (Sensitive data removed)
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -37,49 +34,48 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDjgyveaxiPcuxkqtp5UryvBa1PXb5fo98',
-    appId: '1:480601990521:web:ed99fb8c542734984ffba8',
-    messagingSenderId: '480601990521',
-    projectId: 'mad-inclass14-ashir',
-    authDomain: 'mad-inclass14-ashir.firebaseapp.com',
-    storageBucket: 'mad-inclass14-ashir.firebasestorage.app',
-    measurementId: 'G-PLWN8RWEK8',
+    apiKey: '***REDACTED***',
+    appId: '***REDACTED***',
+    messagingSenderId: '***REDACTED***',
+    projectId: '***REDACTED***',
+    authDomain: '***REDACTED***',
+    storageBucket: '***REDACTED***',
+    measurementId: '***REDACTED***',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBCjAIaJl0OIjdq1xoaLyVCxqVTtTj49kw',
-    appId: '1:480601990521:android:c3c8300345d070b64ffba8',
-    messagingSenderId: '480601990521',
-    projectId: 'mad-inclass14-ashir',
-    storageBucket: 'mad-inclass14-ashir.firebasestorage.app',
+    apiKey: '***REDACTED***',
+    appId: '***REDACTED***',
+    messagingSenderId: '***REDACTED***',
+    projectId: '***REDACTED***',
+    storageBucket: '***REDACTED***',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD_09VuA3Atq9XKMbauJRzxdjJKhZQwZMo',
-    appId: '1:480601990521:ios:3248b122099ad7e24ffba8',
-    messagingSenderId: '480601990521',
-    projectId: 'mad-inclass14-ashir',
-    storageBucket: 'mad-inclass14-ashir.firebasestorage.app',
-    iosBundleId: 'com.example.madInclass14',
+    apiKey: '***REDACTED***',
+    appId: '***REDACTED***',
+    messagingSenderId: '***REDACTED***',
+    projectId: '***REDACTED***',
+    storageBucket: '***REDACTED***',
+    iosBundleId: '***REDACTED***',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyD_09VuA3Atq9XKMbauJRzxdjJKhZQwZMo',
-    appId: '1:480601990521:ios:3248b122099ad7e24ffba8',
-    messagingSenderId: '480601990521',
-    projectId: 'mad-inclass14-ashir',
-    storageBucket: 'mad-inclass14-ashir.firebasestorage.app',
-    iosBundleId: 'com.example.madInclass14',
+    apiKey: '***REDACTED***',
+    appId: '***REDACTED***',
+    messagingSenderId: '***REDACTED***',
+    projectId: '***REDACTED***',
+    storageBucket: '***REDACTED***',
+    iosBundleId: '***REDACTED***',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDjgyveaxiPcuxkqtp5UryvBa1PXb5fo98',
-    appId: '1:480601990521:web:a731a8f58568c9154ffba8',
-    messagingSenderId: '480601990521',
-    projectId: 'mad-inclass14-ashir',
-    authDomain: 'mad-inclass14-ashir.firebaseapp.com',
-    storageBucket: 'mad-inclass14-ashir.firebasestorage.app',
-    measurementId: 'G-S0C57WYG1L',
+    apiKey: '***REDACTED***',
+    appId: '***REDACTED***',
+    messagingSenderId: '***REDACTED***',
+    projectId: '***REDACTED***',
+    authDomain: '***REDACTED***',
+    storageBucket: '***REDACTED***',
+    measurementId: '***REDACTED***',
   );
-
 }
